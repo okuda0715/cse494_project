@@ -20,6 +20,7 @@
 		8637A3631630DC6E00C5E4C5 /* DGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8637A3621630DC6E00C5E4C5 /* DGViewController.m */; };
 		8637A36B1630DD6800C5E4C5 /* DataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8637A36A1630DD6800C5E4C5 /* DataInfo.m */; };
 		8637A36E1630DE2A00C5E4C5 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8637A36D1630DE2A00C5E4C5 /* PlayerViewController.m */; };
+		868D00BF164320180065E1B6 /* ScoreCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868D00BE164320180065E1B6 /* ScoreCardViewController.m */; };
 		869DBB0F163B9A38001B7310 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 869DBB0E163B9A38001B7310 /* CourseViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		8637A36A1630DD6800C5E4C5 /* DataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataInfo.m; sourceTree = "<group>"; };
 		8637A36C1630DE2A00C5E4C5 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		8637A36D1630DE2A00C5E4C5 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		868D00BD164320180065E1B6 /* ScoreCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreCardViewController.h; sourceTree = "<group>"; };
+		868D00BE164320180065E1B6 /* ScoreCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreCardViewController.m; sourceTree = "<group>"; };
 		869DBB0D163B9A38001B7310 /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseViewController.h; path = ../CourseViewController.h; sourceTree = "<group>"; };
 		869DBB0E163B9A38001B7310 /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseViewController.m; path = ../CourseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +107,8 @@
 				8637A36D1630DE2A00C5E4C5 /* PlayerViewController.m */,
 				869DBB0D163B9A38001B7310 /* CourseViewController.h */,
 				869DBB0E163B9A38001B7310 /* CourseViewController.m */,
+				868D00BD164320180065E1B6 /* ScoreCardViewController.h */,
+				868D00BE164320180065E1B6 /* ScoreCardViewController.m */,
 			);
 			path = DiscGolf;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				8637A36B1630DD6800C5E4C5 /* DataInfo.m in Sources */,
 				8637A36E1630DE2A00C5E4C5 /* PlayerViewController.m in Sources */,
 				869DBB0F163B9A38001B7310 /* CourseViewController.m in Sources */,
+				868D00BF164320180065E1B6 /* ScoreCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

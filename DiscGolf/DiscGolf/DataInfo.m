@@ -13,7 +13,7 @@
 @synthesize playerNames = _playerNames;
 @synthesize selectedPlayers = _selectedPlayers;
 @synthesize courseNames = _courseNames;
-@synthesize holeNumber = _holeNumber;
+@synthesize numberOfHoles = _numberOfHoles;
 
 
 - (id) init
@@ -25,7 +25,6 @@
         self.playerNames = [[NSMutableArray alloc] init];
         self.selectedPlayers = [[NSMutableArray alloc] init];
         self.courseNames = [[NSString alloc] init];
-        self.holeNumber = 9;
     }
     
     return self;

@@ -43,11 +43,15 @@
 
 - (IBAction)confirmButtonPressed:(id)sender
 {
+    DataInfo *holes = [DataInfo sharedDataInfo];
     if (self.holesSegmented.selectedSegmentIndex == 0)
     {
-        DataInfo *holes = [DataInfo sharedDataInfo];
+        holes.numberOfHoles = 9;
         
-
+    }
+    else
+    {
+        holes.numberOfHoles = 18;
     }
 }
 

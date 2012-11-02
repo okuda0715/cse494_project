@@ -18,8 +18,7 @@
 //Array of course names
 @property (nonatomic, strong) NSString *courseNames;
 
-@property (nonatomic) NSInteger holeNumber;
-
+@property (nonatomic) int numberOfHoles;
 
 
 + (DataInfo *)sharedDataInfo;
